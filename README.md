@@ -18,9 +18,9 @@ forward to for each machine I might want to configure.
 
 For this reason, and others, I wanted to get a docker container that
 would let me run emacs on any machine, without requiring an X-windows
-client. I build a xfce based desktop container with VNC connectivity
-that could be used for this type of project
-(https://hub.docker.com/r/gardnerpomper/minimal-xfce-xvnc-xrdp/) and
+client. I build a
+[xfce based desktop container](https://hub.docker.com/r/gardnerpomper/minimal-xfce-xvnc-xrdp/)
+with VNC connectivity that could be used for this type of project and
 set out to build an emacs container on top of it. This is the result.
 
 ## Running the image
