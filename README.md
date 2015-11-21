@@ -60,6 +60,7 @@ jhamrick. They are listed here, to make it easier to show that they
 are minor. Each change is marked with my initials (gcp) and date.
 
 | File | reason |
+| ---- | ------ |
 | .emacs | removed magit (requires later version of emacs) |
 | | removed mumamo (could not get it to install) |
 | .emacs.d/el-get-settings.el | removed magit (as above) |
