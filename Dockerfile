@@ -14,7 +14,6 @@ USER me
 WORKDIR /tmp
 ADD emacs-master /tmp/emacs-master
 RUN cd /tmp/emacs-master	&&\
-    ls -aR .			&&\
     ./bootstrap.sh --force
 #
 # ----- switch back to root, because this will run the
