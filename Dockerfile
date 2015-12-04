@@ -10,7 +10,7 @@ RUN pip install pyflakes pep8
 #
 # ----- override the default .Xclients to start emacs on boot
 #
-COPY .Xclients /dhome/me/.Xclients
+COPY .bash_profile .Xclients /dhome/me/
 #
 # ----- add the modified copy of github.com/jhamrick/emacs-master
 #
