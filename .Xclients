@@ -1,0 +1,6 @@
+#
+# ----- start the xfce desktop
+# ----- and a fullscreen emacs
+#
+/etc/xdg/xfce4/xinitrc &
+emacs --fullscreen &

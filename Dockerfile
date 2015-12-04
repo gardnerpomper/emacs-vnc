@@ -8,6 +8,10 @@ RUN yum install -y	\
         yum clean all
 RUN pip install pyflakes pep8
 #
+# ----- override the default .Xclients to start emacs on boot
+#
+COPY .Xclients /dhome/me/.Xclients
+#
 # ----- add the modified copy of github.com/jhamrick/emacs-master
 #
 USER me
